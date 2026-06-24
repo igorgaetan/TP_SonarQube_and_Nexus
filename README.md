@@ -73,6 +73,8 @@ cd java-calculator-devops-lab
 ### Étape 2 : Lancement du Scan
 
 
+
+
 **Option A : Maven**
 ```bash
 mvn clean verify sonar:sonar \
