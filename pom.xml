@@ -13,7 +13,7 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
     <sonar.projectKey>java-sonar-project</sonar.projectKey>
-    <sonar.host.url>http://16.171.4.217:9000</sonar.host.url>
+    <sonar.host.url>http://13.60.222.12:9000</sonar.host.url>
   </properties>
 
   <dependencies>
@@ -28,11 +28,11 @@
   <distributionManagement>
         <snapshotRepository>
           <id>nexus-snapshots</id>
-          <url>http://13.48.193.196:8081/repository/maven-snapshots/</url>
+          <url>http://13.60.222.12:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
           <id>nexus-releases</id>
-          <url>http://13.48.193.196:8081/repository/maven-releases/</url>
+          <url>http://13.60.222.12:8081/repository/maven-releases/</url>
         </repository>
   </distributionManagement>
 
